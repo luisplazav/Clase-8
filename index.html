@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>PROYECTOS DE TÍTULO</title>
+        <style>
+          *,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+    --color-oscurisimo: blue;
+    --color-oscuro: blue;
+    --color-normal: lightblue;
+    --color-iluminado: red;
+    --color-iluminadisimo: lightgreen;
+    --fuente: "Source Code Pro", monospace;
+}
+
+body {
+    font-family: var(--fuente);
+    color: var(--color-normal);
+    text-align: center;
+    font-size: 100%;
+}
+
+a {
+    color: var(--color-oscuro);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-oscurisimo);
+    text-decoration: underline;
+}
+div#contenedor {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 980px;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: calc(100% + 3vw + 3vh);
+}
+
+h2 {
+    margin: 3rem 0;
+    font-weight: 400;
+    letter-spacing: 0.25rem;
+    font-size: calc(100% + 1vw + 1vh);
+    color: var(--color-oscuro);
+}
+
+input {
+    border: 0.1rem solid var(--color-iluminado);
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--color-oscuro);
+    outline: none;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: block;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-android2" viewBox="0 0 16 16"><path d="m10.213 1.471.691-1.26q.069-.124-.048-.192-.128-.057-.195.058l-.7 1.27A4.8 4.8 0 0 0 8.005.941q-1.032 0-1.956.404l-.7-1.27Q5.281-.037 5.154.02q-.117.069-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.7 3.7 0 0 0 3.5 5.02h9q0-1.125-.623-2.072a4.27 4.27 0 0 0-1.664-1.476ZM6.22 3.303a.37.37 0 0 1-.267.11.35.35 0 0 1-.263-.11.37.37 0 0 1-.107-.264.37.37 0 0 1 .107-.265.35.35 0 0 1 .263-.11q.155 0 .267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264m4.101 0a.35.35 0 0 1-.262.11.37.37 0 0 1-.268-.11.36.36 0 0 1-.112-.264q0-.154.112-.265a.37.37 0 0 1 .268-.11q.155 0 .262.11a.37.37 0 0 1 .107.265q0 .153-.107.264M3.5 11.77q0 .441.311.75.311.306.76.307h.758l.01 2.182q0 .414.292.703a.96.96 0 0 0 .7.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182q0 .414.292.703a.97.97 0 0 0 .71.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76q.436 0 .749-.308.31-.307.311-.75V5.365h-9zm10.495-6.587a.98.98 0 0 0-.702.278.9.9 0 0 0-.293.685v4.063q0 .406.293.69a.97.97 0 0 0 .702.284q.42 0 .712-.284a.92.92 0 0 0 .293-.69V6.146a.9.9 0 0 0-.293-.685 1 1 0 0 0-.712-.278m-12.702.283a1 1 0 0 1 .712-.283q.41 0 .702.283a.9.9 0 0 1 .293.68v4.063a.93.93 0 0 1-.288.69.97.97 0 0 1-.707.284 1 1 0 0 1-.712-.284.92.92 0 0 1-.293-.69V6.146q0-.396.293-.68"/></svg>');
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: 99% center;
+}
+
+input::placeholder {
+    color: var(--color-iluminado);
+}
+
+input:focus {
+    border-color: var(--color-normal);
+}
+
+div#contenedordetabla {
+    overflow-x: auto;
+    font-size: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+thead {
+    background: var(--color-iluminadisimo);
+    color: var(--color-oscuro);
+}
+
+tbody {
+    color: var(--color-normal);
+}
+
+td,
+th {
+    border: 1px solid var(--color-normal);
+    padding: 0.75rem;
+}
+
+th:nth-child(1),
+td:nth-child(1),
+th:nth-child(4),
+td:nth-child(4) {
+    text-align: center;
+}
+
+td:nth-child(2) {
+    color: var(--color-oscuro);
+    font-weight: 800;
+}
+
+td:nth-child(3) {
+    font-style: italic;
+}
+        </style>
+    </head>
+    <body>
+        <div id="contenedor">
+            <h2>	
+	⣠⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣦⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀
+⠀⣠⣴⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀
+⠠⣿⣿⣿⣿⣿⠿⠛⠉⠀⠀⠀⠀⠈⠙⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀
+⠀⢻⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀
+⠀⢠⡟⡠⠔⡦⠘⣫⣤⣄⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⢟⠭⢽⡀⠀⠀
+⠀⠈⢇⣴⡿⢧⡌⠙⠛⠻⠿⠿⢷⣦⠄⠀⠀⢸⣿⡿⠋⢂⠀⢀⠇⠀⠀
+⠀⢠⣾⡿⠡⢄⡄⢠⠀⡴⠶⠶⠲⠷⠀⠀⠀⠈⠙⠁⠀⡆⠈⢸⡇⠀⠀
+⠀⠀⢏⣴⠞⢛⣷⠀⠀⠑⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠔⠉⡇⠀⠀
+⠀⠀⠀⠟⠈⠜⡇⠀⠀⡀⡠⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢠⡌⠀⠀⠀
+⠀⠀⢸⠀⡈⢰⡀⢀⠤⠤⠆⠀⠑⢄⠀⢠⠀⠀⠀⠀⠀⠀⢸⠃⠀⠀⠀
+⠀⠀⠘⡀⠑⠈⢁⡠⢤⣀⣶⣶⢦⣄⣤⠘⡄⠀⠀⠀⠀⢘⣿⠀⠀⠀⠀
+⠀⠀⠀⠐⡜⢄⣿⣞⣉⣡⣷⣿⣾⡟⢛⠸⠀⠀⠀⠀⠀⢈⡇⠀⠀⠀⠀
+⠀⠀⠀⠀⠈⢂⢻⢝⠿⠍⢓⡉⠔⠁⣸⠇⠀⠀⠀⠀⠀⡜⠇⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠡⣧⠀⠀⠀⠀⠀⠔⠝⠀⠀⠀⠀⢀⠊⠀⠰⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⡰⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⣢⢄⠠⠔⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡌⠢⡀
+⠀⠀⠀⠀⠀⠀⠀⡐⠀⢆⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀</h2>
+            <h2>PROYECTOS DE TÍTULO</h2>
+
+            <input type="text" id="elInput" placeholder="Filtrar títulos…" />
+            <div id="contenedordetabla">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Autor</th>
+                            <th>Proyecto</th>
+                            <th>Nota</th>
+                            <th>Category</th>
+<th>Prof. guía</th>
+                        </tr>
+                    </thead>
+                    <tbody id="este"></tbody>
+                </table>
+            </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<small>Diseño y visualización de información</small>
+        </div>
+
+        <script>
+            const t = document.querySelector("#este");
+            const URL = "https://api.myjson.online/v1/records/ff7d321d-9b3a-47f2-9a14-52b3e8543d5e";
+
+            fetch(URL)
+                .then((respuesta) => {
+                    if (!respuesta.ok) {
+                        throw new Error("Error HTTP: " + respuesta.status);
+                    }
+                    return respuesta.json();
+                })
+                .then((datos) => {
+                    var trabajo = datos.data;
+                    console.log(trabajo);
+                    trabajo.forEach((x) => {
+                        t.innerHTML += `<tr style="${x.ok == 1 ? "background-color: var(--color-iluminadisimo); color: var(--color-oscurisimo)" : ""}"><td>${x.name}</td><td>${x.title}</td><td>${x.grade}</td><td>${x.category}</td><td>${x.tutor}</td></tr>`;
+                    });
+                })
+                .catch((error) => {
+                    console.error("Algo salió mal:", error);
+                });
+
+            function sinAcentos(str) {
+                return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            }
+
+            document.getElementById("elInput").addEventListener("keyup", function () {
+                const valor = sinAcentos(this.value.toLowerCase());
+                document.querySelectorAll("#este tr").forEach(function (fila) {
+                    fila.style.display = sinAcentos(fila.textContent.toLowerCase()).includes(valor) ? "" : "none";
+                });
+            });
+        </script>
+    </body>
+</html>
